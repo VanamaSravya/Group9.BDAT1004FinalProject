@@ -1,0 +1,23 @@
+{
+    "manifest_version": 2,
+
+    "name" : "Cyber Knights", 
+    "description": "Detects a Phishing Website",
+    "version": "0.1",
+
+    "browser_action": {
+        "default_pop": "popup.html"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "permissions": [
+        "activeTab",
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ]
+}
