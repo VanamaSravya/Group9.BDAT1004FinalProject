@@ -30,7 +30,7 @@ function sleep(milliseconds) {
 
 const api_url = 'http://localhost:5000/status/';
 const api_url_ip = 'http://127.0.0.1:5000/';
-const api_domain = 'http://localhost:5000';
+const api_domain = 'https://cyber-knights-master.herokuapp.com/';
 
 chrome.webRequest.onBeforeRequest.addListener(
   function(url_data){
