@@ -491,7 +491,7 @@ class VerifyAPI(Resource):
 
 @app.route('/')
 def home():
-    return render_template('index.html', "Safe")
+    return render_template('index.html')
 
 
 @app.route('/predict', methods=['POST'])
